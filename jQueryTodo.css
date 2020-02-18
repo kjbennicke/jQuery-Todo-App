@@ -5,3 +5,7 @@
     border: 2px solid darkgrey;
     width: 360px;
 }
+.completed {
+    color: gray;
+    text-decoration: line-through;
+}

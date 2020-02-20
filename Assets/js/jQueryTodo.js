@@ -16,5 +16,8 @@ $("input[type='text']").keypress(function(event){
         $("ul").append("<li><span><i class='fas fa-trash-alt'></i></span> " + todoText + "</li>");
         $(this).val(null);
     }
-    
+});
+//click listener for pencil to collapse Input
+$(".fa-pencil-alt").click(function(){
+    $("input[type='text']").fadeToggle();
 });

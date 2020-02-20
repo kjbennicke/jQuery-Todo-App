@@ -32,6 +32,21 @@ li:nth-child(2n){
     background-color: #f7f7f7;
 }
 
+li:hover span {
+    Width: 40px;
+    transition: 0.2s linear;
+}
+
+span {
+    background-color: #e74c3c;
+    color: white;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    width: 0;
+    display: inline-block;
+}
+
 #container {
     margin: 100px auto;
     align-content: center;
@@ -66,3 +81,4 @@ input:focus {
 .fa-pencil-alt{
     float: right;
 }
+

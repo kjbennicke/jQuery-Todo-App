@@ -3,7 +3,7 @@ $("ul").on("click", "li", function (){
     $(this).toggleClass("completed");
 });
 //Span delete Button functionality
-$("span").on("click", function(event){
+$("ul").on("click", "span", function(event){
     $(this).parent().fadeOut(500, function(){
         $(this).remove();
     });
